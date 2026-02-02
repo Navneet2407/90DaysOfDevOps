@@ -21,19 +21,27 @@ You will create a short note that explains:
   
 - What systemd does and why it matters
   systemd is the manager of everything that runs on linus system once the kernel starts.
+
   Linux-> is a city
   systemd -> is the city operator.
 ------------------------------------------------------------------------------------
 - List **5 commands** you would use daily
-  cd /user/downloads/abc.txt
-  ls : list out the files and directoires 
-  ps aux  | grep nginx 
-  top : shows real time system activity - running process , CPU, memory 
-  htop : human friendly top 
-  systemctl: with this you can check start, stop, check, and manage system services
+
+- cd /user/downloads/abc.txt
+
+- ls : list out the files and directoires 
+
+- ps aux  | grep nginx 
+
+- top : shows real time system activity - running process , CPU, memory 
+
+- htop : human friendly top 
+
+- systemctl: with this you can check start, stop, check, and manage system services
   like
-  systemctl start nginx
-  systemctl stop nginx
-  systemctl reboot 
-  systemctl list-units --type=service -> show running services
+  
+- systemctl start nginx
+- systemctl stop nginx
+- systemctl reboot 
+- systemctl list-units --type=service -> show running services
 ---------------------------------------------------------------------------
