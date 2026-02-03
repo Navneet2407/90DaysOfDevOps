@@ -14,8 +14,6 @@ Process Management Commands:
         ex: lsof -p 1234
 
 - File System commands:
-  ls, cd, pwd, cat, mkdir, rm, cp, mv, chmod, chown, df, du, find
-  ------------------------------------------------------------------------
     6. ls : list out whats here
        ls -l #detailed
        ls -a #show hidden files
