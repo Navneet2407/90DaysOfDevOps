@@ -85,7 +85,8 @@ Day 05 Agenda: Let’s focus on the target service and process. We’ll also tak
    
     1. edit /etc/ssh/sshd_config:
        LogLevel VERBOSE
-       ![alt text](image-11.png) 
+       ![alt text](image-11.png)
+       
        then systemctl restart ssh
 
 
