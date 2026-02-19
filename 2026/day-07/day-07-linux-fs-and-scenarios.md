@@ -148,5 +148,5 @@ to check docker service exist on the system or not
  - then checked log entires of docker with command :
 " journalctl -u doccker -n 50"
 ```
- [alt text](image.png)
+[alt text](image.png)
     
