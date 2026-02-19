@@ -71,12 +71,14 @@ cat /etc/hostname
 # Check your home directory
 ls -la ~
 ```
+```bash
 - ubuntu@ip-172-31-31-60:/home$ ls -la
 - total 12
   - drwxr-xr-x  3 root   root   4096 Feb 16 02:51 .
   - drwxr-xr-x 22 root   root   4096 Feb 19 03:14 ..
   - drwxr-x---  6 ubuntu ubuntu 4096 Feb 16 14:56 ubuntu
   - this shows only ubuntu user has full access and its group has read-execute permission , only ubuntu user and its group can access this folder other users cannot.
+```
 ---
 
 ### Part 2: Scenario-Based Practice (40 minutes)
@@ -127,11 +129,24 @@ What commands would you run to diagnose the issue?
 Write at least 4 commands in order.
 ```
 **I have installed docker application in my instance**
- - sudo apt install docker.io 
- - then checked status of docker with command "systemctl status docker "
- - then "systemctl list-units --type=service" to check docker service exist on the system or not
- - then checked if the app is enabled for restart after reboot " systemctl is-enabled docker"
- - then checked log entires of docker with command : " journalctl -u doccker -n 50"
-    
-    ![alt text](image.png)
+```bash
+ - sudo apt install docker.io
+```
+```bash
+ - then checked status of docker with command
+systemctl status docker
+```
+```bash
+ - then "systemctl list-units --type=service"
+to check docker service exist on the system or not
+```
+```bash
+ - then checked if the app is enabled for restart after reboot
+" systemctl is-enabled docker"
+```
+```bash
+ - then checked log entires of docker with command :
+" journalctl -u doccker -n 50"
+```
+ [alt text](image.png)
     
